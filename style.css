@@ -12,7 +12,7 @@ body{
 }
 
 .rettangolo{
-    border: 1px white; 
+    border-color: 1px white; 
     width: 100000px;
 }
 
@@ -38,15 +38,26 @@ main{
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border-bottom: 2px solid white;
-    margin-top: 5px;
+    border-bottom-color: 2px solid white;
+    margin-top: 20px;
     padding: 5px;
 }
 
-.pulsante{
+.pulsante1{
     display: inline-block;
     background-color: cornflowerblue;
     color: white;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 400; 
+  }
+
+.pulsante2{
+    display: inline-block;
+    background-color: white;
+    color: grey;
     border-radius: 10%;
     width: 100px;
     height: 40px;
@@ -61,16 +72,102 @@ main{
     background-color: white;
     width: 1200px; 
     height: auto;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px ;
     border-bottom-left-radius: 10px;
-    border-top: 2px solid white;
+    border-top-color: 2px solid white;
     margin-top: 2px;
     padding: 30px;
 }
 /* Fine quadrato */
 
-h2, li{
-    padding: 10px;
+/* inizio cerchio & rettangoli parole chiave */
+.cerchio_verde {
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: green;
+}
+
+.cerchio_rosso{
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: red;
+}
+
+.Editoriale{
+    display: inline-block;
+    background-color:cornflowerblue;
+    border: 2px solid white ;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.Goals{
+    display: inline-block;
+    background-color:violet;
+    border: 2px solid white ;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.Recruting{
+    display: inline-block;
+    background-color:green;
+    border: 2px solid white ;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.Mobile{
+    display: inline-block;
+    background-color:orange ;
+    border: 2px solid white ;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.Website{
+    display: inline-block;
+    background-color:rosybrown;
+    border: 2px solid white ;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.Sales{
+    display: inline-block;
+    background-color:greenyellow;
+    border: 2px solid white ;
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.distanza{
+    margin-top: 2px;
+}
+
+h2{
     font-family: 'Roboto', sans-serif; 
     font-size: 500; 
 }
+
+p{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 400; 
+    color: black;
+}
+/* Fine cerchio & rettangoli parole chiave */

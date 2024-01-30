@@ -9,13 +9,11 @@
 /* Inizio header + colore pagina */
 body{
     background-color: whitesmoke;
-    max-width: 800px;
 }
 
 .rettangolo{
-    border: 1px white;
-    width: 20000px;
-    height: 70px;
+    border: 1px white; 
+    width: 100000px;
 }
 
 header, h1, img {
@@ -26,3 +24,33 @@ header, h1, img {
     background-color: white;
 }
 /* Fine header + colore della pagina */
+
+/* Inizio menù */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.centrale{
+    display: inline-block;
+    background-color: white;
+    width: 1200px; 
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid white;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.pulsante{
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 400; 
+  }
+/* Fine menù */

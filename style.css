@@ -34,13 +34,14 @@ main{
 .centrale{
     display: inline-block;
     background-color: white;
-    width: 1200px; 
+    width: 1200px; /* chiedere se va inserito o dovrebbe adattarsi alla percenutale del main */
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-color: 2px solid white;
     margin-top: 20px;
     padding: 5px;
+    align-items: left;
 }
 
 .pulsante1{
@@ -48,6 +49,7 @@ main{
     background-color: cornflowerblue;
     color: white;
     border-radius: 10%;
+    border-color: white;
     width: 100px;
     height: 40px;
     font-family: 'Roboto', sans-serif; 
@@ -59,6 +61,7 @@ main{
     background-color: white;
     color: grey;
     border-radius: 10%;
+    border-color: white;
     width: 100px;
     height: 40px;
     font-family: 'Roboto', sans-serif; 
@@ -156,7 +159,11 @@ main{
 }
 
 .distanza{
-    margin-top: 2px;
+    margin-top: 10px;
+}
+
+.titoli {
+    margin-top: 30px;
 }
 
 h2{

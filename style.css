@@ -54,3 +54,23 @@ main{
     font-size: 400; 
   }
 /* Fine menù */
+
+/* Inizio quadrato */
+.quadrato{
+    display: inline-block;
+    background-color: white;
+    width: 1200px; 
+    height: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top: 2px solid white;
+    margin-top: 2px;
+    padding: 30px;
+}
+/* Fine quadrato */
+
+h2, li{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 500; 
+}

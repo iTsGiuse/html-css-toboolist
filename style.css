@@ -1,2 +1,28 @@
-/* font-family: 'Roboto', sans-serif; */
+/* Inizio prendefinito */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*  Fine prendefinito */
 
+/* Inizio header + colore pagina */
+body{
+    background-color: whitesmoke;
+    max-width: 800px;
+}
+
+.rettangolo{
+    border: 1px white;
+    width: 20000px;
+    height: 70px;
+}
+
+header, h1, img {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 700;
+    vertical-align: middle;  /* chiedere */
+    background-color: white;
+}
+/* Fine header + colore della pagina */
